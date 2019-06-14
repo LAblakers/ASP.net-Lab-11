@@ -21,6 +21,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Blakes Lab11 ASP", "Blakes 
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "55024"
+		SlnRelativePath = "Blakes Lab11 ASP\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject

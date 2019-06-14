@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Exercise1.master.cs" Inherits="Exercise1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 1338px;
+            height: 200px;
+        }
+        .auto-style3 {
+            height: 60px;
+            margin-top: 6px;
+        }
+        .auto-style4 {
+            height: 801px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">        
+    <div class="auto-style4">
+        <asp:Panel runat="server" Height="412px">
+        <header>     
+            <img alt="" class="auto-style1" src="Images/bungie.png" />
+        </header>
+
+        <section>
+            <asp:ContentPlaceHolder ID="conSectionTitle" runat="server"></asp:ContentPlaceHolder>
+        <article>
+            <asp:ContentPlaceHolder ID="conArticle1" runat="server"></asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="conArticle1Detials" runat="server"></asp:ContentPlaceHolder>
+        </article>
+        <article>
+            <asp:ContentPlaceHolder ID="conArticle2" runat="server"></asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="conArticle2Detials" runat="server"></asp:ContentPlaceHolder>
+        </article>
+        </section>
+        
+            
+
+        <footer>
+            <h3 style="text-align:center; vertical-align:bottom; padding-top:30px" class="auto-style3">© Bungie 2018. All rights reserved.</h3>
+        </footer>
+            </asp:Panel>
+    </div>
+    </form>
+</body>
+</html>
